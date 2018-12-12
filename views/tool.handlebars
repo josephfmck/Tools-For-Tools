@@ -1,0 +1,23 @@
+<!--PAGE when you click on specific tool link-->
+<div class="container">
+  <div class="row">
+    <div class="col-8 offset-2">
+      <div class="card mt-4">
+        <div class="card-body">
+          <h5 class="card-title">{{oneTool.tool}}</h5>
+          <p>
+            <strong>Description:</strong> {{oneTool.description}}</p>
+          <p>
+            <strong>Price:</strong> {{oneTool.price}}</p>
+          <p>
+            <strong>Quantity:</strong> {{oneTool.quantity}}</p>
+          <p>
+            <strong>Owner:</strong> {{oneTool.owner}}</p>
+            <a href="/">← Cancel</a>
+            <button id="rentItem" class="btn btn-danger float-right" data-id="{{oneTool.id}}">Purchase</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
